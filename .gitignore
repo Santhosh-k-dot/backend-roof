@@ -1,2 +1,39 @@
-node_modules
+# Node.js Dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment Variables
 .env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs & Debugging Files
+logs/
+*.log
+*.log.*
+debug.log
+pids/
+*.pid
+*.seed
+
+# Build & Dist Files
+dist/
+build/
+.out/
+.vercel/
+
+# IDE & System Files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git & Deployment
+.git/
+.gitignore
